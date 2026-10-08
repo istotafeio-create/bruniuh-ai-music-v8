@@ -1,0 +1,26 @@
+CHECKLIST ANTES DE PUBLICAR STORIES COM LINK
+
+[ ] Registo de utilizador funciona
+[ ] Email confirmado
+[ ] Utilizador recebe 10 créditos
+[ ] CREATE SONG desconta 10 créditos
+[ ] Saem 2 músicas
+[ ] As 2 músicas tocam
+[ ] Library guarda as músicas
+[ ] Download funciona
+[ ] Se a geração falhar, os créditos são devolvidos
+[ ] Secret Keys não aparecem no browser
+[ ] R2 está privado
+[ ] Stripe em modo Test funciona
+[ ] Webhook Stripe adiciona créditos uma só vez
+[ ] Política de Privacidade revista
+[ ] Termos revistos
+[ ] Teste num telemóvel
+[ ] Teste noutra conta
+[ ] Só depois passar Stripe para Live
+
+PRIMEIRO LANÇAMENTO:
+Chama-lhe BETA.
+Começa com poucas pessoas.
+Observa custo real de cada geração durante 2-3 dias.
+Só depois faz uma divulgação grande.

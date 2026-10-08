@@ -1,0 +1,26 @@
+SUPABASE — PASSO A PASSO
+
+1. Cria um projeto Supabase.
+2. Abre SQL Editor.
+3. Abre neste projeto:
+   supabase/schema.sql
+4. Copia tudo e cola no SQL Editor.
+5. Carrega Run.
+6. Em Project Settings / API, copia:
+   - Project URL
+   - Publishable Key
+   - Secret Key
+7. Coloca-os no .env.local.
+
+SEGURANÇA:
+A Secret Key é só do servidor. Nunca a publiques, nunca a metas num story,
+nunca a coloques numa variável NEXT_PUBLIC_.
+
+O SQL cria:
+- profiles
+- songs
+- credit_transactions
+- 10 créditos de boas-vindas
+- débito atómico de créditos
+- reembolso automático
+- créditos pagos via Stripe

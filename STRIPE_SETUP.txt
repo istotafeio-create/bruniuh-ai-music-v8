@@ -1,0 +1,36 @@
+STRIPE — SÓ DEPOIS DA GERAÇÃO FUNCIONAR
+
+Cria quatro produtos/preços ONE-TIME:
+
+1. MINI
+   50 créditos
+   2,99 €
+
+2. STARTER
+   100 créditos
+   4,99 €
+
+3. CREATOR
+   300 créditos
+   12,99 €
+
+4. PRO
+   1.000 créditos
+   34,99 €
+
+Depois coloca os Price IDs no .env.local:
+STRIPE_PRICE_50=price_...
+STRIPE_PRICE_100=price_...
+STRIPE_PRICE_300=price_...
+STRIPE_PRICE_1000=price_...
+
+Webhook:
+https://TEU-DOMINIO/api/stripe/webhook
+
+Evento:
+checkout.session.completed
+
+Coloca o webhook secret:
+STRIPE_WEBHOOK_SECRET=whsec_...
+
+Os créditos só são adicionados quando o Stripe confirma o pagamento.

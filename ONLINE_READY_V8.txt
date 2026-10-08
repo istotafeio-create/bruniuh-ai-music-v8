@@ -1,0 +1,55 @@
+BRUNIUH AI MUSIC — V8 REAL — ONLINE READY CHECKLIST
+
+ESTA CONTINUA A SER A VERSÃO V8. NÃO CRIAR NOVA VERSÃO PARA AJUSTES DE DESIGN.
+
+O SITE ESTÁ ORGANIZADO EM ROTAS REAIS:
+/
+ /login
+ /signup
+ /studio/create
+ /studio/library
+ /studio/explore
+ /studio/tools
+ /studio/pricing
+ /studio/account
+ /privacy
+ /terms
+
+ANTES DE PUBLICAR:
+1. npm install
+2. Copiar .env.example para .env.local
+3. Configurar Supabase
+4. Executar supabase/schema.sql
+5. Configurar FAL_KEY
+6. Configurar Cloudflare R2
+7. Testar Create -> 2 músicas -> Library
+8. Configurar Stripe em TEST mode
+9. Testar os quatro packs de créditos
+10. Testar Stripe webhook
+11. npm run check
+12. npm run build
+13. Testar telemóvel e computador
+14. Só depois usar chaves LIVE do Stripe
+
+CLOUDFLARE:
+O projeto já inclui:
+- open-next.config.ts
+- wrangler.jsonc
+- npm run preview
+- npm run deploy
+
+SEGREDOS:
+Nunca colocar estas chaves em NEXT_PUBLIC_:
+- SUPABASE_SECRET_KEY
+- FAL_KEY
+- R2_SECRET_ACCESS_KEY
+- STRIPE_SECRET_KEY
+- STRIPE_WEBHOOK_SECRET
+
+DESIGN:
+- Logo oficial em public/logo-bruniuhmusic.png
+- Artwork em public/covers/
+- Páginas independentes, preparadas para expansão futura.
+
+NOTA:
+Explore e Tools já têm estrutura profissional, mas funcionalidades futuras como Extend, Remix, Cover, Stems e Live Mode ainda não executam geração real até serem implementadas.

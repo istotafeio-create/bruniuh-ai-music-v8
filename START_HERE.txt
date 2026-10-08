@@ -1,0 +1,80 @@
+BRUNIUH AI MUSIC V5 — ESTA É A VERSÃO FINAL PARA COMEÇAR
+
+NÃO USES AS VERSÕES ANTIGAS.
+
+OBJETIVO DE HOJE:
+Criar conta -> receber 10 créditos -> gerar 2 músicas -> ouvir -> guardar na Library.
+
+PASSO 1
+Instala no PC:
+- Visual Studio Code
+- Node.js 20 ou superior
+- Google Chrome
+
+PASSO 2
+Extrai este ZIP para uma pasta normal do Windows.
+
+PASSO 3
+Clica duas vezes em:
+INSTALL_WINDOWS.bat
+
+Ele instala as dependências e cria o ficheiro .env.local.
+
+PASSO 4
+Cria o Supabase e executa:
+supabase/schema.sql
+
+PASSO 5
+Cria a FAL_KEY em fal.ai.
+
+PASSO 6
+Cria o bucket Cloudflare R2:
+bruniuh-ai-music
+
+PASSO 7
+Abre .env.local no VS Code e preenche Supabase + fal.ai + R2.
+
+NÃO PARTILHES AS SECRET KEYS.
+
+PASSO 8
+No Windows, botão direito em CHECK_CONFIG.ps1 -> Executar com PowerShell.
+Se o Windows bloquear, abre PowerShell na pasta e executa:
+powershell -ExecutionPolicy Bypass -File .\CHECK_CONFIG.ps1
+
+PASSO 9
+Clica:
+RUN_SITE.bat
+
+Abre:
+http://localhost:3000
+
+PASSO 10
+Cria uma conta. O utilizador novo recebe 10 créditos.
+
+PASSO 11
+Faz a primeira geração com duração até 3 minutos.
+CUSTO: 10 créditos.
+RESULTADO: 2 músicas.
+
+PASSO 12
+Confirma:
+- as duas músicas aparecem
+- os players funcionam
+- a Library funciona
+- os ficheiros estão no R2
+- o saldo passou para 0
+
+PASSO 13
+Só quando isto funcionar, configura Stripe.
+
+PREÇOS:
+50 créditos = 2,99 €
+100 créditos = 4,99 €
+300 créditos = 12,99 €
+1.000 créditos = 34,99 €
+
+CONSUMO:
+até 3 min -> 10 créditos -> 2 músicas
+até 4 min -> 15 créditos -> 2 músicas
+até 6 min -> 20 créditos -> 2 músicas
+até 8 min -> 30 créditos -> 2 músicas

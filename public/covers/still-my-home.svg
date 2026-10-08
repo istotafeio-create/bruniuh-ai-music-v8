@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#7c5cff"/>
+    <stop offset="1" stop-color="#16c6b7"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="70%" cy="25%" r="55%">
+    <stop offset="0" stop-color="#fff" stop-opacity=".7"/>
+    <stop offset=".3" stop-color="#fff" stop-opacity=".14"/>
+    <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="55"/></filter>
+</defs>
+<rect width="1200" height="900" fill="#08090d"/>
+<rect width="1200" height="900" fill="url(#bg)" opacity=".78"/>
+<circle cx="900" cy="180" r="360" fill="url(#glow)"/>
+<circle cx="280" cy="650" r="310" fill="#000" opacity=".18" filter="url(#blur)"/>
+<g opacity=".18" stroke="#fff">
+  <path d="M0 710 C190 610 300 800 480 700S810 610 1200 690" fill="none" stroke-width="4"/>
+  <path d="M0 745 C210 650 330 830 520 730S840 650 1200 735" fill="none" stroke-width="2"/>
+</g>
+<rect x="58" y="52" width="1084" height="796" rx="36" fill="none" stroke="#fff" stroke-opacity=".16"/>
+<text x="82" y="116" fill="#fff" opacity=".78" font-family="Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="5">BRUNIUHMUSIC · AI MUSIC</text>
+<text x="82" y="680" fill="#fff" font-family="Arial, sans-serif" font-size="88" font-weight="800" letter-spacing="-2">STILL MY HOME</text>
+<text x="86" y="738" fill="#fff" opacity=".78" font-family="Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="4">ROMANTIC KIZOMBA</text>
+<text x="1044" y="790" fill="#fff" opacity=".52" font-family="Arial, sans-serif" font-size="42" font-weight="700">01</text>
+</svg>

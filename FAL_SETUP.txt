@@ -1,0 +1,22 @@
+FAL.AI / ACE-STEP — PASSO A PASSO
+
+1. Cria uma conta em fal.ai.
+2. Cria uma API key.
+3. No .env.local:
+   FAL_KEY=A_TUA_CHAVE
+
+O site usa:
+fal-ai/ace-step
+
+O motor recebe:
+- Style / tags
+- Lyrics
+- Duração
+- Instrumental
+
+O código faz DUAS gerações por clique.
+
+Preço de referência atual do modelo:
+$0.0002 por segundo de áudio gerado.
+
+NUNCA metas FAL_KEY no frontend nem numa variável NEXT_PUBLIC_.

@@ -1,0 +1,46 @@
+V8 — TESTE DE LANÇAMENTO
+
+CONTA
+[ ] Criar conta
+[ ] Confirmar email
+[ ] Receber 10 créditos grátis
+[ ] Login e logout funcionam
+
+CREATE
+[ ] Simple funciona
+[ ] Custom funciona
+[ ] 3 min cobra 10 créditos
+[ ] 4 min cobra 15 créditos
+[ ] 6 min cobra 20 créditos
+[ ] 8 min cobra 30 créditos
+[ ] Cada clique gera 2 músicas
+[ ] Falha devolve os créditos
+
+LIBRARY
+[ ] As duas músicas ficam guardadas
+[ ] Player funciona
+[ ] Download funciona
+[ ] Pesquisa funciona
+[ ] Signed URL renova ao atualizar
+
+CREDITS
+[ ] Mini 2,99 €
+[ ] Starter 4,99 €
+[ ] Creator 12,99 €
+[ ] Pro 34,99 €
+[ ] Stripe Checkout abre
+[ ] Webhook credita uma só vez
+
+DESIGN
+[ ] Logo aparece em desktop
+[ ] Logo aparece em mobile
+[ ] Covers aparecem
+[ ] Nenhuma página parece cortada
+[ ] Menu mobile funciona
+[ ] Privacy e Terms abrem
+
+SEGURANÇA
+[ ] Nenhuma secret key aparece no browser
+[ ] R2 é privado
+[ ] Supabase RLS está ativo
+[ ] Stripe está em TEST até todos os testes passarem

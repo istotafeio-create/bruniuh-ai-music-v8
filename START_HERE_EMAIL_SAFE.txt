@@ -1,0 +1,23 @@
+BRUNIUH AI MUSIC V8 REAL — EMAIL SAFE
+
+Esta cópia é a mesma base V8 REAL, mas retirei 3 ficheiros de conveniência do Windows
+(.bat e .ps1) porque o Gmail pode bloquear ZIPs que contenham scripts executáveis.
+
+Não fazem falta para começar.
+
+NO PC:
+1. Extrai este ZIP para uma pasta normal.
+2. Instala Node.js 20+ e VS Code, se ainda não tiveres.
+3. Abre a pasta BRUNIUH_AI_MUSIC_V8_REAL_EMAIL_SAFE no VS Code.
+4. Abre Terminal > New Terminal.
+5. Escreve:
+   npm install
+6. Depois escreve:
+   npm run dev
+7. Abre:
+   http://localhost:3000
+
+IMPORTANTE:
+Ainda precisamos configurar Supabase, fal.ai, Cloudflare R2 e Stripe antes da geração real.
+
+Não envies chaves secretas pelo chat.

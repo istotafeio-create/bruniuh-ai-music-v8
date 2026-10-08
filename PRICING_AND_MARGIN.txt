@@ -1,0 +1,60 @@
+BRUNIUH AI MUSIC — PREÇOS E MARGEM
+
+REGRA PRINCIPAL
+10 créditos = 2 músicas de até 3 minutos.
+
+DURAÇÕES
+até 3 min = 10 créditos
+até 4 min = 15 créditos
+até 6 min = 20 créditos
+até 8 min = 30 créditos
+
+BOAS-VINDAS
+10 créditos uma única vez.
+Isto dá ao novo utilizador uma geração grátis de 2 músicas.
+
+PACKS
+50 créditos = 2,99 €
+100 créditos = 4,99 €
+300 créditos = 12,99 €
+1.000 créditos = 34,99 €
+
+CUSTO IA DE REFERÊNCIA
+ACE-Step: $0.0002 por segundo.
+
+Uma geração de 2 músicas x 3 minutos:
+6 minutos = 360 segundos
+360 x $0.0002 = $0.072 de IA.
+
+MARGEM APROXIMADA, ANTES DE IVA/IMPOSTOS/CUSTOS FIXOS
+
+50 créditos a 2,99 €
+5 gerações duplas
+IA ~0,36
+Stripe EEE estimado ~0,29 €
+Sobra ~2,34 €
+Margem ~78%
+
+100 créditos a 4,99 €
+10 gerações duplas
+IA ~0,72
+Stripe ~0,32 €
+Sobra ~3,95 €
+Margem ~79%
+
+300 créditos a 12,99 €
+30 gerações duplas
+IA ~2,16
+Stripe ~0,44 €
+Sobra ~10,39 €
+Margem ~80%
+
+1.000 créditos a 34,99 €
+100 gerações duplas
+IA ~7,20
+Stripe ~0,77 €
+Sobra ~27,02 €
+Margem ~77%
+
+São estimativas. O câmbio, IVA, chargebacks, suporte e alterações de preços
+dos fornecedores podem mudar a margem real.

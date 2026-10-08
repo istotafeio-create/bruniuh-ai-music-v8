@@ -1,0 +1,24 @@
+BRUNIUH AI MUSIC — CUSTO LOW COST
+
+Música:
+fal.ai ACE-Step = $0.0002/segundo = $0.012/minuto
+
+Exemplo:
+2 músicas de 3 minutos = 6 minutos
+6 × $0.012 = $0.072
+
+Pacotes:
+500 créditos = 2,99 €
+2.500 créditos = 9,99 €
+10.000 créditos = 29,99 €
+
+Margem bruta aproximada antes de custos fixos/impostos:
+Extra ~78%
+Pro ~78%
+Premier ~74%
+
+Infraestrutura inicial:
+Supabase Free
+Cloudflare R2 Free tier
+Cloudflare Workers Free tier
+Stripe sem mensalidade
